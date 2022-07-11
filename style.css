@@ -1,0 +1,60 @@
+* {
+    margin: 5px 2px 2px 2px;
+    line-height: normal;
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    margin: 10mm;
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 15mm 15mm 0mm 15mm;
+}
+
+img{
+    height: 350px;
+    width: 471px;
+    margin-left: 420px;
+
+    
+}
+article p {
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 11.0mm;
+}
+
+title p {
+    color: aqua;
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.plorem {
+    text-align: justify;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: medium;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;color: black ;
+}
+a:houver{
+   text-decoration: none; color: brown;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05 Formulários</title>
+</head>
+<body>
+<head>
+    <h1>Meu Site</h1>
+    <p>Construção de um site simples</p>
+</head>
+    <h2>Coloque aqui suas informações</h2>
+    <label for="Navegadores">Qual navegador é de sua preferência?</label>
+    <input list="Navegadores">
+    <datalist id="Navegadores">
+    <option value="Chrome"></option>
+    <option value="Opera"></option>
+    <option value="Safari"></option>
+    <option value="Internet Explorer"></option>
+    <option value="Firefox"></option>
+ </datalist>
+
+ <fieldset>
+    <legend>UF</legend>
+    <label for="Estado de Nascimento">Qual o estado que você mora?:</label>
+    <input name="uf_nascimento" list="Estados"type="text" id="estados_brasileiros">
+    <datalist id="Estados">
+        <option value="AC">Acre</option>
+        <option value="BA">Bahia</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="SP">São Paulo</option>
+        <option value="RO">Rondônia</option>
+        <option value="GO">Goiás</option>
+        <option value="ES">Espiríto Santo</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="PR">Paraná</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="RJ">Rio de Janeiro</option>
+
+    </datalist>
+ </fieldset>
+     <form>
+        Aluno:<br>
+    <input type="text" name="aluno">
+        <br>
+     RA:<br>
+        <input type="text" name="RAAluno">
+        <input type="password" name="senha" size="20">
+        <br>
+        <input type="radio" name="Ecivil" value="male" checked>Casado (a)<br/>
+        <input type="radio" name="Ecivil" value="male" checked>Divorciado (a)<br/>
+        <input type="radio" name="Ecivil" value="male" checked> Solteiro(a)<br/>
+        <br>
+        <br>
+    </form>
+    <form>
+      <input type="checkbox" name="opções" value="php"/>PHP<br/>
+      <input type="checkbox" name="opções" value="angular"/> Anular<br/>
+      <input type="checkbox" name="opções" value="javascript"/> JavaScript<br/>
+      <input type="checkbox" name="opções" value="ccharp"/> Ccharp<br/>
+      <br>
+      <input type="submit">
+    </form>
+
+</body>
+</html>
